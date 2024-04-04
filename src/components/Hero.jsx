@@ -7,7 +7,7 @@ const Hero = () => {
             <div className="hero-text">
                 <h1>Hey, I'm Kurgat 👋</h1>
                 <p>
-     I'm a passionate Software Engineer with a knack for crafting innovative solutions.
+     I'm a  Software Engineer with a knack for crafting innovative solutions.
      With a strong background in Java, Spring Boot, Flutter, Laravel, JavaScript, React, 
      and Android development, I thrive on tackling challenges and delivering high-quality software. 
      Let's connect and create something amazing together!
