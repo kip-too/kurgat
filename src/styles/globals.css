@@ -8,8 +8,8 @@ body {
   font-family: sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #1D1E20;
-  color: #DADADB;
+  background-color: #1a1a2e; /* Navy bluish background */
+  color: #FFFFFF; /* Whitish text */
   width: 900px;
   margin: 0 auto;
   padding: 0 0;
@@ -24,7 +24,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #DADADB;
+  color: #FFFFFF; /* Whitish links */
 }
 
 li {
@@ -37,7 +37,7 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
-  background-color: #1D1E20;
+  background-color: #1a1a2e; /* Navy bluish background */
 }
 
 .nav-container .logo {
@@ -46,8 +46,8 @@ li {
 }
 
 .cta-btn {
-  background-color: #FFCC1A;
-  color: #1D1E20;
+  background-color: #FFCC1A; /* Yellow button */
+  color: #1a1a2e; /* Navy bluish text */
   padding: 0.5rem 1rem;
   border-radius: 5px;
   font-size: 1rem;
@@ -58,13 +58,13 @@ li {
 }
 
 .cta-btn:hover {
-  background-color: #DADADB;
+  background-color: #DADADB; /* Lighter yellow on hover */
 }
 
 /* Footer */
 hr {
   border: none;
-  background-color: #9B9C9D;
+  background-color: #9B9C9D; /* Grayish line */
   height: 1px;
   width: 80%;
   margin: 0 auto;
@@ -81,12 +81,12 @@ hr {
   justify-content: space-around;
   align-items: center;
   padding: 2rem 0;
-  background-color: #1D1E20;
+  background-color: #1a1a2e; /* Navy bluish background */
 }
 
 .footer-container p {
   font-size: 0.8rem;
-  color: #9B9C9D;
+  color: #9B9C9D; /* Grayish text */
 }
 
 .footer-container .social_icons {
@@ -97,17 +97,16 @@ hr {
 }
 
 .footer-container .social_icons a {
-  color: #9B9C9D;
+  color: #9B9C9D; /* Grayish social icons */
   font-size: 1.5rem;
   transition: all 0.5s ease-in-out;
 }
 
 .footer-container .social_icons a:hover {
-  color: #DADADB;
+  color: #FFFFFF; /* Whitish social icons on hover */
 }
 
 /* Hero */
-
 .hero-container {
   height: 90vh;
   display: flex;
@@ -157,13 +156,13 @@ hr {
 }
 
 .hero-container .social-icons a {
-  color: #9B9C9D;
+  color: #9B9C9D; /* Grayish social icons */
   font-size: 1.5rem;
   transition: all 0.5s ease-in-out;
 }
 
 .hero-container .social-icons a:hover {
-  color: #DADADB;
+  color: #FFFFFF; /* Whitish social icons on hover */
 }
 
 /* About */
@@ -203,7 +202,7 @@ hr {
   width: 100%;
   height: 500px;
   object-fit: cover;
-  border: 2px solid #DADADB;
+  border: 2px solid #FFFFFF; /* Whitish border */
   filter: grayscale(100%);
   transition: all 0.5s ease-in-out;
   cursor: cell;
@@ -252,8 +251,8 @@ hr {
 }
 
 .skills-container .grid-skills .skill-card {
-  background-color: #DADADB;
-  color: #1D1E20;
+  background-color: #FFFFFF; /* Whitish skill card background */
+  color: #1a1a2e; /* Navy bluish text */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -269,29 +268,34 @@ hr {
   font-size: 1.5rem;
 }
 
-.skills-container .grid-skills .html:hover {
-  background-color: #E34F26;
+.skills-container .grid-skills .java:hover {
+  background-color: #E34F26; /* Orange hover color for HTML */
 }
 
 .skills-container .grid-skills .css:hover {
-  background-color: #264DE4;
+  background-color: #264DE4; /* Blue hover color for CSS */
 }
 
 .skills-container .grid-skills .js:hover {
-  background-color: #F7DF1E;
+  background-color: #F7DF1E; /* Yellow hover color for JavaScript */
 }
 
 .skills-container .grid-skills .react:hover {
-  background-color: #61DAFB;
+  background-color: #61DAFB; /* Light blue hover color for React */
 }
 
 .skills-container .grid-skills .node:hover {
-  background-color: #339933;
+  background-color: #339933; /* Green hover color for Node.js */
 }
 
 .skills-container .grid-skills .python:hover {
-  background-color: #3776AB;
+  background-color: #3776AB; /* Dark blue hover color for Python */
 }
+
+.skills-container .grid-skills .flutter:hover {
+  background-color: #3776AB; /* Dark blue hover color for Python */
+}
+
 
 /* Projects */
 .projects-container {
@@ -331,7 +335,7 @@ hr {
 
 .project-card .folder-icon {
   font-size: 35px;
-  color: #FFCC17;
+  color: #FFCC17; /* Yellow folder icon */
 }
 
 .project-header .small-icons {
@@ -346,7 +350,7 @@ hr {
 }
 
 .project-card .small-icons a:hover {
-  color: #FFCC17;
+  color: #FFCC17; /* Yellow color on hover */
 }
 
 .project-card .project h3 {
@@ -360,7 +364,7 @@ hr {
   color: #b3b3b3;
 }
 
-/* contact */
+/* Contact */
 .contact-container {
   padding: 2rem 0 4rem;
   display: flex;

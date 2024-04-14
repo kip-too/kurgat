@@ -8,7 +8,7 @@ const Navbar = () => {
                     Kurgat
                 </Link>
             </div>
-            <a href="https://drive.google.com/file/d/159my4XIpTICkwziwqeWtXT7in0prU4I1/view?usp=sharing" className="cta-btn">Resume</a>
+            <a href="https://drive.google.com/file/d/159my4XIpTICkwziwqeWtXT7in0prU4I1/view?usp=sharing" className="cta-btn">Résumé</a>
         </div>
     )
 }
