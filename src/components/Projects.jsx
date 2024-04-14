@@ -8,21 +8,21 @@ const Projects = () => {
                 {projectData.map((project) => (
                     <div className="project-card" key={project.id}>
                         <div className="project-header">
-                            <i className="fa-regular fa-folder-open folder-icon"></i>
+                            <i className="far fa-folder-open folder-icon"></i>
                             <div className="small-icons">
                                 {project.gitHubLink && (
                                     <a href={project.gitHubLink} target="_blank" rel="noopener noreferrer">
-                                        <i className="fa-brands fa-github"></i>
+                                        <button className="link-button">Code</button>
                                     </a>
                                 )}
                                 {project.playstoreLink && (
                                     <a href={decodeURIComponent(project.playstoreLink)} target="_blank" rel="noopener noreferrer">
-                                        <i className="fa-brands fa-google"></i>
+                                        <button className="link-button">Live</button>
                                     </a>
                                 )}
-                                    {project.googleDrive && (
+                                {project.googleDrive && (
                                     <a href={decodeURIComponent(project.googleDrive)} target="_blank" rel="noopener noreferrer">
-                                        <i className="fa-brands fa-google"></i>
+                                        <button className="link-button">Live</button>
                                     </a>
                                 )}
                             </div>
@@ -37,3 +37,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
